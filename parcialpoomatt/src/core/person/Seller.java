@@ -4,10 +4,20 @@
  */
 package core.person;
 
+import core.Store;
+
 /**
  *
  * @author samuelnunez
  */
-public class Seller {
+public class Seller extends User {
+    
+    private Store store;
+
+    public Seller(Store store) {
+        this.store = store;
+    }
+    
+        
     
 }
