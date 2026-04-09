@@ -4,10 +4,25 @@
  */
 package core.person;
 
+import core.Order;
+import java.time.LocalDate;
+import java.util.ArrayList;
+
 /**
  *
  * @author samuelnunez
  */
-public class Client {
+public class Client extends User {
+    
+    private ArrayList<Order> orders;
+
+    public Client(int id, String name, String email, LocalDate registrationDate) {
+        super(id, name, email, registrationDate);
+        this.orders = new ArrayList<>();
+    }
+    
+    
+    
+    
     
 }

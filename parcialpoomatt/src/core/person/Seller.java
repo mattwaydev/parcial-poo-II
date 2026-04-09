@@ -5,6 +5,7 @@
 package core.person;
 
 import core.Store;
+import java.time.LocalDate;
 
 /**
  *
@@ -14,9 +15,12 @@ public class Seller extends User {
     
     private Store store;
 
-    public Seller(Store store) {
+    public Seller(Store store, int id, String name, String email, LocalDate registrationDate) {
+        super(id, name, email, registrationDate);
         this.store = store;
     }
+
+    
     
         
     
