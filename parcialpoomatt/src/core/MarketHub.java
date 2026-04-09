@@ -4,6 +4,8 @@
  */
 package core;
 
+import core.person.Client;
+import core.person.Seller;
 import core.person.User;
 import java.util.ArrayList;
 
@@ -19,6 +21,6 @@ public class MarketHub {
         this.users = new ArrayList<>();
         this.stores = new ArrayList<>();
     }
-    
-    
+
+
 }
