@@ -1,6 +1,7 @@
 package main;
 
 import core.MarketHub;
+import core.Product;
 import core.person.Client;
 import core.person.Seller;
 import java.time.LocalDate;

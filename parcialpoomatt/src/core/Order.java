@@ -20,12 +20,13 @@ public class Order {
     private Status status;
     private ArrayList<Product> products;
 
-    public Order(int id, Client client, LocalDate date, Status status, ArrayList<Product> products) {
+    public Order(int id, LocalDate date) {
         this.id = id;
         this.client = client;
         this.date = date;
         this.status = status;
-        this.products = products;
+        this.products = new ArrayList<>();
+
     }
 
     public int getId() {
@@ -46,6 +47,14 @@ public class Order {
 
     public ArrayList<Product> getProducts() {
         return products;
+    }
+    
+    public boolean addProduct(Product product){
+        if(!this.products.contains(product)){
+            this.products.add(product);
+            return true;
+        }
+        else return false;
     }
     
             

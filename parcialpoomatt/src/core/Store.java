@@ -22,7 +22,7 @@ public class Store {
         this.name = name;
         this.creationDate = creationDate;
         this.owner = owner;
-        this.products = products;
+        this.products = new ArrayList<>();
     }
 
     public String getName() {
@@ -41,6 +41,21 @@ public class Store {
         return products;
     }
     
+    public int getSeller(){
+        return this.owner.getId();
+    }
+
+    public boolean createProduct(String laptop, String high_performance_laptop, double d, String electronics, int i) {
+        Product product = new Product(laptop, high_performance_laptop, (float) d, electronics, i);
+        if(!this.products.contains(product)){
+            this.products.add(product);
+            return true;
+        }
+        else return false;
+    }
+    public Product getProduct(int id){
+        return this.products.get(id);
+    }
      
     
 }
