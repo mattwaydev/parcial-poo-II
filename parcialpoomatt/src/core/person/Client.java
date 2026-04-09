@@ -20,6 +20,26 @@ public class Client extends User {
         super(id, name, email, registrationDate);
         this.orders = new ArrayList<>();
     }
+
+    public ArrayList<Order> getOrders() {
+        return orders;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public LocalDate getRegistrationDate() {
+        return registrationDate;
+    }
     
     
     

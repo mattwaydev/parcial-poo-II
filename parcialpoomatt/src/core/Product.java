@@ -22,6 +22,26 @@ public class Product {
         this.category = category;
         this.inventoryQuantity = inventoryQuantity;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public float getPrice() {
+        return price;
+    }
+
+    public String getCategory() {
+        return category;
+    }
+
+    public int getInventoryQuantity() {
+        return inventoryQuantity;
+    }
     
     
 }

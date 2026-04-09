@@ -19,6 +19,14 @@ public class MarketHub {
         this.users = new ArrayList<>();
         this.stores = new ArrayList<>();
     }
+
+    public ArrayList<User> getUsers() {
+        return users;
+    }
+
+    public ArrayList<Store> getStores() {
+        return stores;
+    }
     
     
 }
