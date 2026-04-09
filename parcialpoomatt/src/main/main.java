@@ -1,4 +1,5 @@
 import core.MarketHub;
+import core.person.Client;
 import java.time.LocalDate;
 
 public class MainParcial2040 {
