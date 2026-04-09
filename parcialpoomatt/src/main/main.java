@@ -1,3 +1,4 @@
+import core.MarketHub;
 import java.time.LocalDate;
 
 public class MainParcial2040 {
