@@ -9,5 +9,19 @@ package core;
  * @author mateocarrascal
  */
 public class Product {
+    private String name;
+    private String description;
+    private float price;
+    private String category;
+    private int inventoryQuantity;
+
+    public Product(String name, String description, float price, String category, int inventoryQuantity) {
+        this.name = name;
+        this.description = description;
+        this.price = price;
+        this.category = category;
+        this.inventoryQuantity = inventoryQuantity;
+    }
+    
     
 }

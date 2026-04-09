@@ -4,10 +4,21 @@
  */
 package core;
 
+import core.person.User;
+import java.util.ArrayList;
+
 /**
  *
  * @author mateocarrascal
  */
 public class MarketHub {
+    private ArrayList<User> users;
+    private ArrayList<Store> stores;
+
+    public MarketHub() {
+        this.users = new ArrayList<>();
+        this.stores = new ArrayList<>();
+    }
+    
     
 }
