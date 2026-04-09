@@ -24,6 +24,23 @@ public class Store {
         this.owner = owner;
         this.products = products;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public LocalDate getCreationDate() {
+        return creationDate;
+    }
+
+    public Seller getOwner() {
+        return owner;
+    }
+
+    public ArrayList<Product> getProducts() {
+        return products;
+    }
     
+     
     
 }

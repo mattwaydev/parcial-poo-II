@@ -20,6 +20,26 @@ public class Seller extends User {
         this.store = store;
     }
 
+    public Store getStore() {
+        return store;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public LocalDate getRegistrationDate() {
+        return registrationDate;
+    }
+
     
     
          

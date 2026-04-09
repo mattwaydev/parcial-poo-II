@@ -22,5 +22,17 @@ public class MarketHub {
         this.stores = new ArrayList<>();
     }
 
+<<<<<<< HEAD
 
+=======
+    public ArrayList<User> getUsers() {
+        return users;
+    }
+
+    public ArrayList<Store> getStores() {
+        return stores;
+    }
+    
+    
+>>>>>>> 4ce444523835564453cb8d87a15d2ace85024b31
 }
